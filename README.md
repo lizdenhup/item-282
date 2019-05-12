@@ -1,4 +1,4 @@
-# item-282 (wip)
+# item-282
 
 It's that time of year again. The UofC is having its annual scavenger hunt and this is my small contribution.
 
