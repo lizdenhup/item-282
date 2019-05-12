@@ -31,3 +31,4 @@ As is the case with most scav items, I had no idea what this meant upon the firs
 #### Most average census tract in terms of water area (mi^2) and land area (mi^2)
 
 **GEOID**: 1001020801
+Link to map (for some reason GitHub is not letting me add an image to the readme): https://imgur.com/9B7WuH5
