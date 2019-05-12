@@ -14,12 +14,20 @@ As is the case with most scav items, I had no idea what this meant upon the firs
 
 2. Follow the instructions provided to me by the US Census Bureau.
 
-I downloaded the National Census Tracts Gazetteer Files	for the year 2018. These are based on the 2010 census. This is a .txt file containing the following fields:
+- I downloaded the National Census Tracts Gazetteer Files	for the year 2018. These are based on the 2010 census. This is a .txt file containing the following fields:
 
-USPS GEOID ALAND AWATER ALAND_SQMI AWATER_SQMI INTPTLAT INTPTLONG
+`USPS GEOID ALAND AWATER ALAND_SQMI AWATER_SQMI INTPTLAT INTPTLONG`
 
-I opened this file in Google sheets. You can find the spreadsheet [here](https://docs.google.com/spreadsheets/d/13V_61OSEUaBGR1c70YHgCn3a-s5ZuGZGa4xDTScvaUQ/edit?usp=sharing).
+- I opened this file in Google sheets. You can find the spreadsheet [here](https://docs.google.com/spreadsheets/d/13V_61OSEUaBGR1c70YHgCn3a-s5ZuGZGa4xDTScvaUQ/edit?usp=sharing).
 
-I averaged the floating point values for columns for which this made sense using regular ol' Google formulas, i.e. `=AVERAGE(F3:F)` etc. You can see the averages in the top row of the spreadsheet.
+- I averaged the floating point values for columns for which this made sense using regular ol' Google formulas, i.e. `=AVERAGE(F3:F)` etc. You can see the averages in the top row of the spreadsheet.
+
+- Then, I applied conditional formatting to the cells, highlighting a row's land area (mi^2) or water area (mi^2) values if the average for either was ±1.0 of the overall average for that field.
+
+- One handsome tract had values within 1.0 of both averages, and that was tract 1001020801. I used the `Response Outreach Area Mapper` to search for that tract. You can find the beautiful map of this wonderful (and average) tract below.
 
 ### Results
+
+#### Most average census tract in terms of water area (mi^2) and land area (mi^2)
+
+**GEOID**: 1001020801
